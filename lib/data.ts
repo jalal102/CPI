@@ -83,7 +83,7 @@ export type CrimeType =
 export const MOCK_USERS: User[] = [
   {
     id: 'u1',
-    name: 'Cmdr. Hassan Ali',
+    name: 'Cmdr. Muhammad Jalal Khan',
     email: 'admin@cpis.gov',
     role: 'admin',
     badge: 'ADM-001',
@@ -91,7 +91,7 @@ export const MOCK_USERS: User[] = [
   },
   {
     id: 'u2',
-    name: 'Analyst Zara Khan',
+    name: 'Analyst Saran Shams',
     email: 'analyst@cpis.gov',
     role: 'analyst',
     badge: 'ANL-042',
@@ -99,7 +99,7 @@ export const MOCK_USERS: User[] = [
   },
   {
     id: 'u3',
-    name: 'Officer Bilal Shah',
+    name: 'Officer Umair Ali',
     email: 'officer@cpis.gov',
     role: 'officer',
     badge: 'OFF-117',
@@ -198,7 +198,7 @@ export const MOCK_SUSPECTS: Suspect[] = [
     image: 'https://randomuser.me/api/portraits/men/22.jpg',
   },
   {
-    id: 's4', name: 'Asad Khan', alias: null, age: 22, gender: 'Male',
+    id: 's4', name: 'Asad Khan', alias: 'Tailor', age: 22, gender: 'Male',
     threatLevel: 'medium', crimes: ['c6'], lastSeen: '2024-11-08',
     location: 'Detained - Central Jail', status: 'arrested',
     image: 'https://randomuser.me/api/portraits/men/67.jpg',
