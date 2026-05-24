@@ -183,7 +183,7 @@ export const MOCK_SUSPECTS: Suspect[] = [
     id: 's1', name: 'Rashid Mehmood', alias: 'The Ghost', age: 34, gender: 'Male',
     threatLevel: 'critical', crimes: ['c1', 'c8'], lastSeen: '2024-11-15',
     location: 'Unknown - Last seen Peshawar', status: 'wanted',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg',
+    image: '/components/image/1.jpeg',
   },
   {
     id: 's2', name: 'Kamran Wazir', alias: 'K-Dog', age: 28, gender: 'Male',
