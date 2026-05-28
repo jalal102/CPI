@@ -192,22 +192,22 @@ export const MOCK_SUSPECTS: Suspect[] = [
     image: '/image/2.jpeg',
   },
   {
-    id: 's3', name: 'Malik Dost', alias: 'The Trader', age: 45, gender: 'Male',
+    id: 's3', name: 'Hamza Bn Abid', alias: 'The Trader', age: 24, gender: 'Male',
     threatLevel: 'critical', crimes: ['c4'], lastSeen: '2024-11-12',
-    location: 'Nowshera', status: 'arrested',
-    image: 'https://randomuser.me/api/portraits/men/22.jpg',
+    location: 'Jheulm', status: 'arrested',
+    image: '/image/3.jpeg',
   },
   {
-    id: 's4', name: 'Asad Khan', alias: 'Tailor', age: 22, gender: 'Male',
+    id: 's4', name: 'Mousaf Ali', alias: 'Tailor', age: 22, gender: 'Male',
     threatLevel: 'medium', crimes: ['c6'], lastSeen: '2024-11-08',
     location: 'Detained - Central Jail', status: 'arrested',
-    image: 'https://randomuser.me/api/portraits/men/67.jpg',
+    image: '/image/4.jpeg',
   },
   {
-    id: 's5', name: 'Sajida Bibi', alias: 'Mama Bear', age: 52, gender: 'Female',
+    id: 's5', name: 'Mobeen', alias: 'Mama Bear', age: 25, gender: 'Male',
     threatLevel: 'high', crimes: ['c7'], lastSeen: '2024-11-05',
-    location: 'Gulbahar, Peshawar', status: 'wanted',
-    image: 'https://randomuser.me/api/portraits/women/41.jpg',
+    location: 'Kharian, near ACE', status: 'wanted',
+    image: '/image/5.jpeg',
   },
 ];
 
