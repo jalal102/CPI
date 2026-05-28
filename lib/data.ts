@@ -181,31 +181,31 @@ export const MOCK_CRIMES: CrimeRecord[] = [
 export const MOCK_SUSPECTS: Suspect[] = [
   {
     id: 's1', name: 'Muhammad Jalal Khan', alias: 'The Ghost', age: 21, gender: 'Male',
-    threatLevel: 'critical', crimes: ['c1', 'c8'], lastSeen: '2024-11-15',
+    threatLevel: 'critical', crimes: ['c1', 'c8'], lastSeen: '2026-02-15',
     location: 'Unknown - Last seen Peshawar', status: 'wanted',
     image: '/image/1.jpg',
   },
   {
     id: 's2', name: 'Muhammad Adil', alias: 'K-Dog', age: 28, gender: 'Male',
-    threatLevel: 'high', crimes: ['c2'], lastSeen: '2024-11-14',
+    threatLevel: 'high', crimes: ['c2'], lastSeen: '2026-03-14',
     location: 'Saddar, Peshawar', status: 'arrested',
     image: '/image/2.jpeg',
   },
   {
     id: 's3', name: 'Hamza Bn Abid', alias: 'The Trader', age: 24, gender: 'Male',
-    threatLevel: 'critical', crimes: ['c4'], lastSeen: '2024-11-12',
+    threatLevel: 'critical', crimes: ['c4'], lastSeen: '2026-04-12',
     location: 'Jheulm', status: 'arrested',
     image: '/image/3.jpeg',
   },
   {
     id: 's4', name: 'Mousaf Ali', alias: 'Tailor', age: 22, gender: 'Male',
-    threatLevel: 'medium', crimes: ['c6'], lastSeen: '2024-11-08',
-    location: 'Detained - Central Jail', status: 'arrested',
+    threatLevel: 'critical', crimes: ['c6'], lastSeen: '2026-05-08',
+    location: 'Near Dinga Road', status: 'wanted',
     image: '/image/4.jpeg',
   },
   {
     id: 's5', name: 'Mobeen', alias: 'Mama Bear', age: 25, gender: 'Male',
-    threatLevel: 'high', crimes: ['c7'], lastSeen: '2024-11-05',
+    threatLevel: 'high', crimes: ['c7'], lastSeen: '2026-04-05',
     location: 'Kharian, near ACE', status: 'wanted',
     image: '/image/5.jpeg',
   },
