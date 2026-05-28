@@ -180,16 +180,16 @@ export const MOCK_CRIMES: CrimeRecord[] = [
 
 export const MOCK_SUSPECTS: Suspect[] = [
   {
-    id: 's1', name: 'Rashid Mehmood', alias: 'The Ghost', age: 34, gender: 'Male',
+    id: 's1', name: 'Muhammad Jalal Khan', alias: 'The Ghost', age: 21, gender: 'Male',
     threatLevel: 'critical', crimes: ['c1', 'c8'], lastSeen: '2024-11-15',
     location: 'Unknown - Last seen Peshawar', status: 'wanted',
     image: '/image/1.jpg',
   },
   {
-    id: 's2', name: 'Kamran Wazir', alias: 'K-Dog', age: 28, gender: 'Male',
+    id: 's2', name: 'Muhammad Adil', alias: 'K-Dog', age: 28, gender: 'Male',
     threatLevel: 'high', crimes: ['c2'], lastSeen: '2024-11-14',
     location: 'Saddar, Peshawar', status: 'arrested',
-    image: 'https://randomuser.me/api/portraits/men/45.jpg',
+    image: '/image/2.jpeg',
   },
   {
     id: 's3', name: 'Malik Dost', alias: 'The Trader', age: 45, gender: 'Male',
@@ -216,7 +216,7 @@ export const MOCK_SUSPECTS: Suspect[] = [
 export const MOCK_ALERTS: Alert[] = [
   {
     id: 'a1', type: 'critical', title: 'ARMED SUSPECT AT LARGE',
-    message: 'Suspect Rashid Mehmood (alias: The Ghost) reported near Ring Road checkpoint. Armed and dangerous.',
+    message: 'Suspect Muhammad Jalal Khan (alias: The Ghost) reported near Ring Road checkpoint. Armed and dangerous.',
     location: 'Ring Road, Peshawar', timestamp: '2024-11-15T23:58:00', acknowledged: false,
   },
   {
